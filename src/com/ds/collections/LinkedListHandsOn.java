@@ -25,11 +25,58 @@ public class LinkedListHandsOn {
 		 * 
 		 * if the list is empty, it returns null.
 		 * 
+		 * Time Complexity: O(1), as we are only accessing the head of the list.
+		 * 
+		 * Space Complexity: O(1), as no extra space is required.
+		 * 
 		 */
 		System.out.println(shoppingList.poll());
 		
 		// After ran the poll method what're the elements are presented in the list
 		System.out.println(shoppingList);
+		
+		shoppingList.add("Apple");
+		shoppingList.add("Banana");
+		shoppingList.add("Pear");
+		shoppingList.add("Pear");
+		
+		/*
+		 * pollFirst() method is very similar to the poll() method. 
+		 * It, too, returns and removes the head (first element) of the list.
+		 * 
+		 * Syntax: public E pollFirst()
+		 * 
+		 * Return Value: This function returns the first element (head) of the 
+		 * linked list if there are elements in the list, and if the list is empty, it returns null.
+		 * 
+		 * Time Complexity: O(1), as we are only accessing the head of the list.
+		 * 
+		 * Space Complexity: O(1), as no extra space is required.
+		 * 
+		 */
+		System.out.println(shoppingList.pollFirst());
+		
+		// After ran the pollFirst method what're the elements are presented in the list
+		System.out.println(shoppingList);		
+		
+		/*
+		 * pollLast() method returns the last element of the LinkedList 
+		 * and also removes it from the list.
+		 * 
+		 * Syntax: public E pollLast()
+		 * 
+		 * Return Value: The function returns the last element of the list if there are elements in the list, 
+		 * and if the list is empty, it returns null.
+		 * 
+		 * Time Complexity: O(1), as we are only accessing the head of the list.
+		 * 
+		 * Space Complexity: O(1), as no extra space is required.
+		 * 
+		 */
+		System.out.println(shoppingList.pollLast());
+		
+		// After ran the pollLast method what're the elements are presented in the list
+		System.out.println(shoppingList);	
 		
 		// Put the index where we want the element to go
 		shoppingList.add(1, "Mango");
