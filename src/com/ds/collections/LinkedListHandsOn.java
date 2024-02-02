@@ -17,6 +17,20 @@ public class LinkedListHandsOn {
 		// LinkedList keeps items in the same order
 		System.out.println(shoppingList);
 		
+		/*
+		 * poll() method deletes the head of the list and returns it.
+		 * 
+		 * Return Value: This function returns the first element (head)
+		 * of the linked list if there're elements in the list.
+		 * 
+		 * if the list is empty, it returns null.
+		 * 
+		 */
+		System.out.println(shoppingList.poll());
+		
+		// After ran the poll method what're the elements are presented in the list
+		System.out.println(shoppingList);
+		
 		// Put the index where we want the element to go
 		shoppingList.add(1, "Mango");
 		System.out.println(shoppingList);
