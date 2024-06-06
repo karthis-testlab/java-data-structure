@@ -30,6 +30,26 @@ public class LinkedHashSetHandsOn {
 		linkedSet.addAll(linkedSet1);
 		
 		System.out.println(linkedSet);
+		
+		String string = "AaaaaBbbbbCcccDddd";
+		
+		String[] strArray = string.split("");
+		
+		Set<String> set = new LinkedHashSet<String>();
+		
+		for (String str : strArray) {
+			set.add(str);
+		}
+		
+		String newString = "";
+		
+		for (String str1 : set) {
+			newString=newString+str1;
+		}
+		
+		System.out.println(newString);
+		
+		
 
 	}
 
