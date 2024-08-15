@@ -1,4 +1,4 @@
-package com.ds.collections.practices;
+package com.ds.collection.list.practices;
 
 import java.util.Arrays;
 import java.util.List;
