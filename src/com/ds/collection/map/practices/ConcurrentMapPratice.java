@@ -13,6 +13,9 @@ public class ConcurrentMapPratice {
 	 * The benefit of using `ConcurrentMap` is that it allows high concurrency for
 	 * retrieval and updates without affecting the performance.
 	 * 
+	 * Common implementations of `ConcurrentMap` are `ConcurrentHashMap`,
+	 * `ConcurrentSkipListMap`, etc.
+	 * 
 	 */
 	public static void main(String[] args) {
 				
