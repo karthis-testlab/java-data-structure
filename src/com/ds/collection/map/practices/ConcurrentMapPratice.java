@@ -16,7 +16,9 @@ public class ConcurrentMapPratice {
 	 * Common implementations of `ConcurrentMap` are `ConcurrentHashMap`,
 	 * `ConcurrentSkipListMap`, etc.
 	 * 
-	 * 
+	 * One of the main features of `ConcurrentMap` is its atomic operations like 
+	 * `putIfAbsent()`, `remove()`, and `replace()` which were added to improve 
+	 * concurrent handling while ensuring integrity of the data.
 	 * 
 	 */
 	public static void main(String[] args) {
