@@ -26,7 +26,13 @@ public class ConcurrentMapPratice {
 	 *    only if the key is not already associated with any value.
 	 *    
 	 * 2. `remove(key, value)`: This method removes the entry for a key only if it
-	 *    is currently mapped to the specified value.   
+	 *    is currently mapped to the specified value.
+	 *    
+	 * 3. `replace(key, oldValue, newValue)`: This method replaces the entry for a
+	 *    key only if currently mapped to the specified value.
+	 *    
+	 * Let me give you an example of using `ConcurrentHashMap`, one of the 
+	 * implementations of `ConcurrentMap`.       
 	 * 
 	 */
 	public static void main(String[] args) {
