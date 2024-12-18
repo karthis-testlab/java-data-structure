@@ -22,6 +22,12 @@ public class ConcurrentMapPratice {
 	 * 
 	 * Here's a brief explanation of these atomic methods:
 	 * 
+	 * 1. `putIfAbsent(key, value)`: This method adds a key-value pair to the map
+	 *    only if the key is not already associated with any value.
+	 *    
+	 * 2. `remove(key, value)`: This method removes the entry for a key only if it
+	 *    is currently mapped to the specified value.   
+	 * 
 	 */
 	public static void main(String[] args) {
 				
