@@ -33,8 +33,6 @@ public class ConcurrentMapPratice {
 	 *    
 	 * Let me give you an example of using `ConcurrentHashMap`, one of the 
 	 * implementations of `ConcurrentMap`.
-	 *        
-	 * 
 	 * 
 	 */
 	public static void main(String[] args) {
