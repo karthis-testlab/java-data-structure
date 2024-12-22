@@ -1,5 +1,8 @@
 package com.ds.collection.map.practices;
 
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+
 public class ConcurrentMapPratice {
 
 	/**
@@ -36,6 +39,16 @@ public class ConcurrentMapPratice {
 	 * 
 	 */
 	public static void main(String[] args) {
+		
+		ConcurrentMap<Integer, String> concurrentMap = new ConcurrentHashMap<Integer, String>();
+		
+		// using putIfAbsent()
+		concurrentMap.putIfAbsent(1, "Java");
+		concurrentMap.putIfAbsent(2, "Python");
+		concurrentMap.putIfAbsent(1, "C++");
+		
+		// Display the contents of the map
+		System.out.println("Initial Map: " + concurrentMap);
 				
 	}
 
