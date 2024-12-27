@@ -52,6 +52,9 @@ public class ConcurrentMapPratice {
 		
 		// using replace()
 		concurrentMap.replace(1, "Java", "JavaScript");
+		
+		// using remove()
+		
 				
 	}
 
