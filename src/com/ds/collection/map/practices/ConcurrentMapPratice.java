@@ -50,8 +50,8 @@ public class ConcurrentMapPratice {
 		// Display the contents of the map
 		System.out.println("Initial Map: " + concurrentMap);
 		
-		
-		
+		// using replace()
+		concurrentMap.replace(1, "Java", "JavaScript");
 				
 	}
 
