@@ -54,7 +54,10 @@ public class ConcurrentMapPratice {
 		concurrentMap.replace(1, "Java", "JavaScript");
 		
 		// using remove()
-		concurrentMap.remove(2, "Python"); 
+		concurrentMap.remove(2, "Python");
+		
+		// Display the contents of the map after modification
+		System.out.println("Updated Map: "+concurrentMap);
 				
 	}
 
