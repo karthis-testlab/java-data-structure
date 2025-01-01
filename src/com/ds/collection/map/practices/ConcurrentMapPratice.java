@@ -65,9 +65,7 @@ public class ConcurrentMapPratice {
 	 * 
 	 * In this example, we created a `ConcurrentHashMap` and demonstrated the usage of
 	 * `putIfAbsent()`, `replace()`, and `remove()` method which provide atomicity features
-	 * ensuring thread-safe operations.
-	 * 
-	 * 
+	 * ensuring thread-safe operations. 
 	 * 
 	 */
 
