@@ -67,6 +67,8 @@ public class ConcurrentMapPratice {
 	 * `putIfAbsent()`, `replace()`, and `remove()` method which provide atomicity features
 	 * ensuring thread-safe operations.
 	 * 
+	 * Keep in mind that while `ConcurrentMap` Significantly improves performance and
+	 * concurrency compared to synchronized wrappers like `Collections.synchronizeMap()`,
 	 *  
 	 * 
 	 */
