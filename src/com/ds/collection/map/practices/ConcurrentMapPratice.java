@@ -69,7 +69,9 @@ public class ConcurrentMapPratice {
 	 * 
 	 * Keep in mind that while `ConcurrentMap` Significantly improves performance and
 	 * concurrency compared to synchronized wrappers like `Collections.synchronizeMap()`,
-	 *  
+	 * you should analyze if `ConcurrentHashMap` is suitable for your use case or if other 
+	 * implementations like `ConcurrentSkipListMap` would be more appropriate based on the
+	 * required ordering and navigability.
 	 * 
 	 */
 
