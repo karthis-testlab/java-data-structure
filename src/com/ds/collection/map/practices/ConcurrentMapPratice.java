@@ -48,7 +48,7 @@ public class ConcurrentMapPratice {
 		concurrentMap.putIfAbsent(1, "C++");
 		concurrentMap.putIfAbsent(3, "Ruby");
 		concurrentMap.putIfAbsent(4, "Go");
-		concurrentMap.putIfAbsent(4, "Swift");
+		concurrentMap.putIfAbsent(5, "Swift");
 		
 		// Display the contents of the map
 		System.out.println("Initial Map: " + concurrentMap);
