@@ -49,7 +49,7 @@ public class ConcurrentMapPratice {
 		concurrentMap.putIfAbsent(3, "Ruby");
 		concurrentMap.putIfAbsent(4, "Go");
 		concurrentMap.putIfAbsent(5, "Objective-C");
-		concurrentMap.putIfAbsent(5, "Swift");
+		concurrentMap.putIfAbsent(6, "Swift");
 		concurrentMap.putIfAbsent(6, "C");
 		
 		// Display the contents of the map
