@@ -51,7 +51,7 @@ public class ConcurrentMapPratice {
 		concurrentMap.putIfAbsent(5, "Objective-C");
 		concurrentMap.putIfAbsent(6, "Swift");
 		concurrentMap.putIfAbsent(7, "C");
-		concurrentMap.putIfAbsent(8, "Sala");
+		concurrentMap.putIfAbsent(8, "Scala");
 		
 		// Display the contents of the map
 		System.out.println("Initial Map: " + concurrentMap);
